@@ -1,0 +1,10 @@
+{
+  "Id": "GuidingStarFix",
+  "DisplayName": "Guiding Star Fix",
+  "Author": "data_abort",
+  "Version": "1.0.0",
+  "ManagerVersion": "0.24.0",
+  "Requirements": [],
+  "AssemblyName": "GuidingStarFix.dll",
+  "EntryMethod": "GuidingStarFix.Main.Load"
+}
