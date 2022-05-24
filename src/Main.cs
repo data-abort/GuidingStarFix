@@ -15,21 +15,15 @@ namespace GuidingStarFix
         {
             try
             {
-                modEntry.OnToggle = OnToggle;
                 var harmony = new Harmony(modEntry.Info.Id);
                 harmony.PatchAll();
                 Logger.Info("Finished patching.");
+                modEntry.Enabled = true;
             }
             catch (Exception e)
             {
                 Logger.Error("Failed to patch", e);
             }
-            return true;
-        }
-
-        public static bool OnToggle(UnityModManager.ModEntry modEntry, bool value)
-        {
-            Enabled = value;
             return true;
         }
 
