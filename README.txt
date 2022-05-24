@@ -11,6 +11,8 @@ zero.  Read as written, this author believes the HP should be evaluated after
 the hit roll but before damage.  It is thus implemented here, which makes the 
 ring better.
 
+This mod cannot be disabled at runtime once loaded.  You'll need to restart.
+
 Credits: 
 WittleWolfie for BlueprintCore
 Discord #mod-dev-technical users for help
